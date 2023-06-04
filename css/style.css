@@ -1,0 +1,61 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-size: 16px;
+}
+
+.contenedorPagina{
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: #dcb732;
+    box-shadow: 0px 0.5rem 3rem black;
+}
+
+.footer{
+    width: 100%;
+    height: 20%;
+    justify-self: center;
+    align-self: center;
+    background-color: #dcb732;
+    box-shadow: 0px -0.5rem 3rem black;
+}
+
+.contenedorComida{
+    height: 70%;
+    background-color: #713d38
+}
+
+.titulo{
+    align-self: center;
+    margin: 2rem;
+    margin-left: 5rem;
+    color: white;
+}
+
+.navbar-nav{
+    flex-direction: row-reverse;
+    gap: 3rem;
+    color:white;
+}
+
+.card{
+    border: none;
+    border-radius: 2rem;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    box-shadow: 0px 0.5rem 1rem black;
+}
+
+.card img{
+    border-end-start-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    box-shadow: 0px 0.5rem 1rem black;
+}
