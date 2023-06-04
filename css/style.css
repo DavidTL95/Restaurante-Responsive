@@ -35,14 +35,25 @@
     border-end-end-radius: 2rem;
 }
 
+.contenedor{
+    height: 100%;
+}
+
 .contenedorComida{
     height: 70%;
     background-color: #713d38
 }
 
+.contenedorContacto{
+    height: 100%;
+    background-color: #713d38
+}
+
 .titulo{
+
     align-self: center;
     color: white;
+    border-bottom: #dcb732 0.25rem solid;
 }
 
 .navbar-nav{
@@ -76,5 +87,29 @@
 }
 
 .menuNavbar a, .nenuNavbar header{
+    color: white;
+}
+
+.contenedorRedes{
+    height: 80%;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes svg:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 2rem;
+}
+
+.tituloRedes{
+    color: white;
+}
+
+.formulario{
     color: white;
 }
