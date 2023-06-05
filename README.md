@@ -26,11 +26,11 @@ https://davidtl95.github.io/Restaurante-Responsive/
 
 ## Stack
 
-![image]({https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white})
+![HTML](https://github.com/DavidTL95/Restaurante-Responsive/assets/134488502/dda5450f-307d-460c-b131-ff433142a276)
 
-<img src="{https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white}" />
+![CSS](https://github.com/DavidTL95/Restaurante-Responsive/assets/134488502/2dae8038-a473-4dd8-9022-d728d2801b75)
 
-<img src="{https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white}" />
+![Bootstrap](https://github.com/DavidTL95/Restaurante-Responsive/assets/134488502/032c4a7c-88c5-4515-ad3f-679fbf26b65f)
 
 ## Vistas
 Large
