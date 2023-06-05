@@ -15,8 +15,12 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+    <!-- Container de la pantalla. -->
     
     <div class="container-fluid h-100 contenedorPagina">
+    
+    <!-- Navbar con logo y links a las distintas páginas. Dividida en dos columnas para poder ajustarlos a los bordes. -->
 
         <nav class="navbar header">
             <div class="container-fluid">
@@ -31,17 +35,21 @@
                           <a class="nav-link active" aria-current="page" href="./index.html">Carta</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./reservas.html">Reservas</a>
+                          <a class="nav-link" href="./pages/reservas.html">Reservas</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./contacto.html">Contacto</a>
+                          <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                         </li>
                       </ul>
                 </div>
             </div>
         </nav>
 
+        <!-- Contenedor de las cartas y la imagen de cabecera. -->
+
         <div class="row container-row h-100 w-100 m-0 p-0 d-flex justify-content-center contenedorComida">
+
+            <!-- Imagen de cabecera con su padre para poder alinearla. -->
 
             <div class="col-12 cabecera d-flex justify-content-center">
                 <img src="./img/Imagen-cabecera.jpg" alt="Imagen de una hamburguesa.">
@@ -53,6 +61,7 @@
 
             </div>
 
+            <!-- Cartas con sus respectivos tamaños para cada breakpoint. -->
 
             <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center comida">
                 <div class="card m-3 d-flex" style="width: 20rem;">
@@ -115,6 +124,8 @@
             </div>
 
         </div>
+
+        <!-- Otra navbar para el footer que contiene las redes sociales y links a información legal. -->
 
         <div class="container-fluid footer">
 
